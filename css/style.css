@@ -1,0 +1,566 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    list-style:none;
+    font-family: 'Open Sans', sans-serif;
+   
+}
+
+
+body{
+    width: 100vw;
+    overflow-x: hidden;
+}
+.banner{
+    height:85vh;
+    width:100vw;
+    background-image: url("../img/topo.png");
+    background-repeat: no-repeat;
+    background-position:center;
+    background-size:cover;
+}
+.logo{
+    width: 100vw;
+    height:75vh;
+    display:flex;
+    
+    
+}
+.logo-icon{
+    width: 100vw;
+    height:100vh;
+    display:flex;
+    justify-content:space-evenly;
+    align-items: center;
+    position: relative;
+    padding-top:5vh;
+}
+.star{
+    height:11vh;
+    width:25vw;
+    background-image: url(../img/star.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.wars{
+    height:11vh;
+    width:25vw;
+    background-image: url(../img/wars.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.kylo-banner{
+    height:98vh;
+    width:98vw;
+    background-image: url(../img/Kylo-Ren-banner\ sem\ fundo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    position: absolute;
+    right:20vh;
+    top:5vh;
+}
+.rotate-info{
+    width: 9vw;
+    height:10vh;
+    font-size:1.35vw;
+    position:absolute;
+    right:44vh;
+    bottom:25vh;
+    align-self:flex-end;
+    
+}
+.rotate-content{
+    border-bottom: 0.19vw solid black;
+    text-transform: uppercase;
+    align-items: flex-start;
+    height:10vh;
+
+    
+}
+.black{
+    font-weight: bolder;
+}
+.contador{
+    display:flex;
+    height:7vh;
+    align-items: flex-end;
+    
+    
+}
+.number-container{
+    display:flex;
+    align-items: flex-end;
+}
+.number{
+    font-size:0.67vw;
+}
+.number-high{
+    font-size:1.4vw;
+ 
+}
+.buttons{
+    display:flex;
+    align-items: flex-end;
+    padding-left:0.5vw;
+    
+}
+.button-direction{
+    font-size:0.5em;
+    font-weight: bolder;
+    border:none;
+    padding:0.1em;
+    margin-right:5px;
+    background-color:gainsboro;
+    
+}
+main{
+    
+}
+
+.demo{
+    height: 120vh;
+    width:100vw;
+    background-image: url(../img/left-background.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    display: flex;
+    flex-direction: column;
+   
+    
+}
+
+.about-game{
+    margin-left:12vw;
+    width:80vw;
+    height: 50vh;
+    border-bottom:0.13vw solid black;
+    display: flex;
+    position: relative;
+   
+}
+.play-box{
+    width:20%;
+    height: 95%;
+    background-color:red;
+    color:white;
+    background-image: url(../img/strom\ trupe\ red.png);
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: absolute;
+    bottom:4.23vw;
+   
+}
+.play-content{
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    flex-direction: column;
+}
+.title-play{
+    padding-top:8vh;
+    font-size: 1.95vw;
+    text-transform: uppercase;
+    text-align: center;
+    
+    
+}
+.play-text{
+    font-size:0.75vw;
+    color:#cd7b72;
+    width: 80%;
+    padding-top: 4.16vh;
+    padding-bottom:4.16vh;
+}
+.play-down{
+    background-color:none;
+    font-size:0.8vw;
+    color:#ecd6d3;
+    border:0.06vw solid #ecd6d3;
+    border-radius: 0.1em;
+    padding:0.52vh 1.56vw;
+    text-transform: uppercase;
+}
+.about-box{
+    height:20vh;
+    width: 100vw;
+    align-self: flex-end;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 8vh;
+    
+   
+}
+.content-about{
+    height: 100%;
+    width: 30%;
+    text-align: right;
+    display:flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    flex-direction: column;
+    
+}
+.title-about{
+    font-size:2.60vw;
+}
+.text-about{
+    font-size:2vw;
+}
+.image-about{
+    height: 100%;
+    width: 25%;
+    background-image: url(../img/star\ wars\ frente\ de\ batalha.png);
+    background-size:contain, cover;
+    background-repeat: no-repeat;
+    background-position: right;
+}
+.title-about{
+    font-size:1.1vw;
+    text-transform: uppercase;
+    
+    
+    
+}
+.stick{
+    border-bottom: 2px solid black;
+    width: 30%;
+    text-align: right;
+
+}
+.text-about{
+    font-size:0.85vw;
+}
+.game-estructure{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-left:10em;
+    width: 80vw;
+    position: relative
+    
+}
+.estructure-box{
+    width: 26vw;
+    padding-top:8vh;
+
+}
+.title-estructure{
+    text-align: right;
+    text-transform: uppercase;
+    font-size: 2.60vw;
+    padding:1.56vh 0 0.5vh;
+    font-weight:normal;
+
+}
+.black-color{
+    font-weight:bold;
+}
+.estructure-nav{
+    
+}
+ul{
+    text-align: right;
+    text-transform: uppercase;
+    display: flex;
+    flex-direction: column;
+    
+}
+ul li{
+padding:0.3em;
+font-size:1.4vw;
+z-index: 2;
+}
+ul li:hover{
+    background-color:#d74430;
+    color:white;
+}
+
+.rey{
+    background-image: url(../img/rey\ star\ wars.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 66vh;
+    width: 65vw;
+    position:absolute;
+    left:55vw;
+    bottom:-19vh;
+    z-index: 1;
+    
+}
+.lord{
+    background-image: url(../img/lord\ sifh\ 2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 74vw;
+    height: 74vh;
+    position:absolute;
+    right:4vw;
+    bottom:-18vh;
+    z-index: 1;
+}
+.atribute-section{
+    background-color:#2d2d2d;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+.atribute-content{
+    padding-top: 20vh;
+    height: 78vh;
+    width: 85vw;
+    padding-bottom: 70vh;
+ 
+    
+}
+.atribute-title{
+    color:white;
+    text-transform: uppercase;
+    padding-left: 10vw;
+    font-size: 2em;
+    font-weight: bolder;
+    padding-bottom: 5vh;
+}
+.atribute-box{
+    height: 50vh;
+    display: flex;
+   
+}
+.image-one{
+    background-image: url(../img/134840-games-review-star-wars-battlefront-review-image1-NkRao9Jw12.png);
+    width: 45vw;
+    height: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    z-index: 2;
+}
+.box-second{
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.image-two{
+    background-image: url(../img/Security_stormtrooper_HUC2-FF-003301.png);
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.image-three{
+    background-image: url(../img/star\ game.png);
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.image-for{
+    background-image: url(../img/naves\ em\ batalha\ star\ wars.png);
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.image-five{
+    background-image:url(../img/stormtrup.png);
+    width: 50%;
+    height: 50%;
+    background-size: cover;
+    background-repeat: no-repeat
+}
+.hierarchy-box{
+    background-image: url(../img/star-wars_stormtrooper_hierarquia.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 110vh;
+    width: 85vw;
+}
+
+.how-play-title{
+    color:white;
+    font-weight: bolder;
+    padding-top:30vh;
+    text-transform: uppercase;
+    font-weight: bolder;
+    font-size: 2em;
+}
+.download-section{
+    height: 50vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    position: relative;
+
+}
+.download-box{
+    display: flex;
+    justify-content:space-around;
+    width: 80vw;
+    
+}
+.break{
+    display:block;
+    
+}
+.download-content{
+   
+    width: 15vw;
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:space-between;
+    text-align: center;
+
+}
+.download-content:hover .download-button{
+    background-color:#d74430;
+    width: 50%;
+}
+.download-content:hover .bar{
+        background-color:#d74430;
+        border-bottom: 3px solid #d74430;
+}
+
+.content-number{
+    font-weight: normal;
+    font-size:2em;
+}
+.download-buttons{
+    border:none;
+    text-transform: uppercase;
+    width: 15vw;
+    height: 8vh;
+    background-color:black;
+    color:white;
+    display: flex;
+
+}
+.download-button{
+    width: 0%;
+    height: 8vh;
+    text-transform: uppercase;
+    border:none;
+    background-color:#d74430;
+    transition-timing-function: linear;
+    transition-duration: 0.5s;
+    transition-property: width;
+    position: relative;
+    z-index: 1;
+   
+
+}
+.button-title{
+    font-size: 0.8vw;
+    width: 15vw;
+    height: 8vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 2;
+}
+.button-title:hover .bar{
+    border-bottom: 3px solid blue;
+}
+.download-text{
+    font-size: 0.9vw;
+    color:#959595;
+}
+.bar{
+    width: 25%;
+    border-bottom: 0.31vw solid black;
+}
+.storm{
+    background-image: url(../img/stortm_trooper_capa_preta-removebg-preview.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 80vh;
+    height: 80vh;
+    position: absolute;
+    bottom:10vh;
+    left:0;
+}
+.rod{
+    width: 70vw;
+    height: 90vh;
+    background-color: #ff5a56;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.footer-box{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 30vw;
+    height: 70vh;
+}
+.footer-app{
+
+}
+.footer-title{  
+    font-size: 2em;
+    color:white;
+    text-transform: uppercase;
+    padding-bottom: 4vh;
+}
+.footer-text{
+    font-size:1vw;
+    color:#ffcdcc;
+    padding-bottom: 3vh;
+}
+.icons-download{
+    display:flex;
+    align-items: center;
+    justify-content:space-between;
+    width: 30vw;
+    height: 10vh;
+}
+.icons-image{
+    height: 9vh;
+    width: 14vw;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+.android{
+    background-image: url(../img/disponivel-google-play-badge.png);
+}
+.ios{
+    background-image: url(../img/baixar-na-app-store-botao-2-1024x304.png);
+}
+.footer-stick{
+    border-bottom: 0.5vh solid #d74430;
+    width: 100%;
+}
+.footer-starwars-logo{
+    width:10vw ;
+    height:10vh;
+    background-image: url(../img/esta\ uo.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    padding-bottom: 1vh;
+}
+.cop-text{
+    color:#ffcdcc;
+    padding-top:2vh;
+    font-size: 1vw;
+}
+.dart{
+    width: 92vw;
+    height: 92vh;
+    background-image:url(../img/darth_vader-sem\ fundo.png);
+    background-repeat: no-repeat;
+    background-size:contain;
+    position:absolute;
+    left:60vw;
+    bottom:9.5vh;
+  
+}
