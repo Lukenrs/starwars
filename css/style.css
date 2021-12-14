@@ -69,13 +69,12 @@ body{
     position:absolute;
     right:44vh;
     bottom:25vh;
-    align-self:flex-end;
+ 
     
 }
 .rotate-content{
-    border-bottom: 0.19vw solid black;
+    border-bottom: 0.40vw solid black;
     text-transform: uppercase;
-    align-items: flex-start;
     height:10vh;
 
     
@@ -111,14 +110,13 @@ body{
     font-size:0.5em;
     font-weight: bolder;
     border:none;
-    padding:0.1em;
+    width: 1vw;
+    height: 2vh;
     margin-right:5px;
-    background-color:gainsboro;
+    background-color:#aec1c5
     
 }
-main{
-    
-}
+
 
 .demo{
     height: 120vh;
@@ -305,6 +303,10 @@ ul li:hover{
 .atribute-section{
     background-color:#2d2d2d;
     height: 250vh;
+    position: relative;
+}
+.atribute-position{
+    height: 210vh;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -314,7 +316,7 @@ ul li:hover{
     padding-top: 20vh;
     height: 78vh;
     width: 85vw;
-    padding-bottom: 70vh;
+    padding-bottom:;
  
     
 }
@@ -327,8 +329,10 @@ ul li:hover{
     padding-bottom: 5vh;
 }
 .atribute-box{
+    width: 100%;
     height: 50vh;
     display: flex;
+   
    
 }
 .image-one{
@@ -338,6 +342,7 @@ ul li:hover{
     background-size: cover;
     background-repeat: no-repeat;
     z-index: 2;
+    position: relative;
 }
 .box-second{
     height: 100%;
@@ -373,12 +378,50 @@ ul li:hover{
     background-size: cover;
     background-repeat: no-repeat
 }
+.image-hover{
+    width: 100%;
+    height: 100%;
+    background-color:#d74430;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    display: none;
+}
+
+.hover-title{
+    padding-top:10%;
+    padding-bottom:2%;
+    color:white;
+    text-transform: uppercase;
+    font-size:60%;
+    width: 10%;
+}
+.hover-text{
+    color:#e3aaa3;
+    font-size:45%;
+    padding-bottom: 4%;
+}
+.hover-down{
+    text-transform: uppercase;
+    background-color: transparent;
+    color:white;
+    border:0.1em solid white;
+    font-size:40%;
+    height: 30%;
+    width: 50%;
+}
+.img:hover .image-hover{
+    display:block;
+}
 .hierarchy-box{
     background-image: url(../img/star-wars_stormtrooper_hierarquia.png);
     background-size: contain;
     background-repeat: no-repeat;
     height: 110vh;
     width: 85vw;
+    margin-top:2vh;
 }
 
 .how-play-title{
@@ -388,6 +431,7 @@ ul li:hover{
     text-transform: uppercase;
     font-weight: bolder;
     font-size: 2em;
+    text-align: center;
 }
 .download-section{
     height: 50vh;
@@ -421,7 +465,7 @@ ul li:hover{
 }
 .download-content:hover .download-button{
     background-color:#d74430;
-    width: 50%;
+    width: 100%;
 }
 .download-content:hover .bar{
         background-color:#d74430;
@@ -466,9 +510,7 @@ ul li:hover{
     position: absolute;
     z-index: 2;
 }
-.button-title:hover .bar{
-    border-bottom: 3px solid blue;
-}
+
 .download-text{
     font-size: 0.9vw;
     color:#959595;
@@ -563,4 +605,306 @@ ul li:hover{
     left:60vw;
     bottom:9.5vh;
   
+}
+@media screen and (max-width:376px) {
+
+    html{
+        
+    }
+    .banner{
+        height:30vh;
+    
+    }
+    .kylo-banner{
+        right:26vw;
+        top:-14vh;
+        width: 66vw;
+        height: 66vh;
+    }
+    .rotate-info{
+        font-size:2vw;
+        width: 12vw;
+        right:50;
+        top:25vh;
+        align-self:auto;
+    }
+    .rotate-content{
+        height:5vh;
+        border-bottom:1vw solid black;
+    }
+    .contador{
+        height: 3vh;
+    }
+    .number{
+        font-size:1.5vw;
+    }
+    .number-high{
+        font-size:2vw;
+    }
+    .button-direction{
+        width: 3vw;
+        font-size: 2vw;
+    }
+   
+    .logo{
+        height: 100%;
+    }
+    .logo-icon{
+        height:100%;
+        padding-top:15vh;
+    }
+    
+    .star{
+      width: 22vw;
+    }
+    .wars{
+        width: 22vw;
+    }
+    .demo{
+        height: 200vh;
+    }
+    .about-game{
+        padding-top:15vh;
+        display: flex;
+        height: 165vh;
+        flex-direction: column;
+        justify-content: right;
+        align-items: flex-end;
+        width: ;
+       border-bottom: 4px solid #8a8a8a;
+        
+    }
+
+    
+    .play-box{
+        width:65vw;
+        height: 170vh;
+        background-color:red;
+        color:white;
+        background-image: url(../img/strom\ trupe\ red.png);
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items:center;
+        position: static;
+        background-color:blue;
+        margin-bottom:5vh;
+    }
+    .play-content{
+        padding-top:5vh;
+    }
+    .title-play{
+        font-size:8vw;
+    }
+    .play-text{
+        font-size:4vw;
+    }
+    .play-down{
+        font-size:5vw;
+        border:0.8vw solid #ecd6d3;
+        border-radius: 0.3em;
+    }
+    .stick{
+    border-bottom: 3px solid black;
+    width: 50%;
+    text-align: right;
+    }
+    .about-box{
+          height: 50vh;
+          justify-content: right;
+          flex-direction:column-reverse;
+          width: 65vw;
+    }
+    .content-about{
+        justify-content: right;
+        width: 100%;
+    }
+    .text-about{
+        font-size:3vw;
+        width: 80vw;
+        padding-top:1vh;
+    }
+    .title-about{
+        padding: 1vh 0 0.5vh 0;
+        font-size:4vw;
+    }
+    .image-about{
+        width: 65vw;
+        height: 50vh;
+        background-size: cover;
+    }
+
+    .game-estructure{
+        padding:0;
+        height: 100vh;
+        width: 100vw;
+        margin:0;
+    }
+    .estructure-box{
+        padding:0;
+        width: 40vw;
+    }
+    .title-estructure{
+        font-size:5vw;
+    }
+    .estructure-nav ul li{
+        font-size:2vw;
+        width: 100%;
+    }
+    .atribute-section{
+        height: 290vh;
+    }
+    .atribute-box{
+        flex-direction: column;
+        width: 100%;
+        height: 185vh;       
+        
+    }
+    .atribute-content{
+        padding-bottom:0;
+    }
+    .atribute-title{
+        font-size:5vw;
+        padding:0;
+        padding-bottom:2vh;
+        text-align: center;
+        
+    }
+    .image-one{
+        width: 100%;
+        height:40vh;
+    }
+    .image-two{
+        width: 100%;
+        height:35vh;
+    }
+    .image-three{
+        width: 100%;
+        height:35vh;
+    }
+    .image-for{
+        width: 100%;
+        height: 35vh;
+    }
+    .image-five{
+        width: 100%;
+        height: 35vh;
+    }
+    .box-second{
+        flex-direction: column;
+        width: 100%;
+        height: 200vh;
+        flex-wrap: nowrap;
+
+    }
+    .hierarchy-box{
+        align-self: flex-start;
+        width: 100%;
+        margin-top: 0;
+        background-size: cover;
+        height:40vh;
+        
+     
+    }
+    .how-play-title{
+        text-align: right;
+        font-size:6vw;
+        padding-right:15vw;
+    }
+    .download-section{
+        height: 120vh;
+    }
+    .download-box{
+        flex-direction: column;
+        justify-content: right;
+        align-items: flex-end;
+        padding-right:20vw;
+    }
+    .content-number{
+        font-size:8vw;
+        text-align: center;
+    }
+    .download-buttons{
+        width: 40vw;
+    }
+    .button-title{
+        width:  40vw;
+        font-size: 2vw;
+    }
+    .download-text{
+        width: 40vw;
+        font-size: 4vw;
+    }
+    .bar{
+        width: 100%;
+        border-bottom: 1vw solid black;
+    }
+    .rod{
+        width: 100vw;
+        height: 150vh;
+    }
+    .footer-box{
+        width: 80vw;
+        height: 100vh;
+        display: flex;
+        align-items: center;
+    }
+    .footer-app{
+        width: 80vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .footer-title{
+        padding:0;
+        width: 82vw;
+        font-size:13vw;
+    }
+    .footer-text{
+        width: 82vw;
+        font-size:3.4vw;
+    }
+    .icons-download{
+        width: 90vw;
+    }
+    .icons-image{
+       width: 100%;
+      
+       
+    }
+    .footer-starwars-logo{
+        width: 50vw;
+        height: 20vh;
+    }
+    .footer-cop{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .cop-text{
+        width: 82vw;
+        font-size:3.4vw;
+    }
+    .rey{
+       top:4vh;
+       left:70vw;
+       width: 40vw;
+       height: 40vh;
+    }
+    .lord{
+        top:5vh;
+        left:0;
+        width: 55vw;
+        height: 55vh;
+    }
+    .storm{
+        width: 130vw;
+        height: 130vh;
+        left:-55vw;
+    }
+    .dart{
+        left:10vw;
+        top:125vh;
+    }
 }
