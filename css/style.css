@@ -134,7 +134,7 @@ body{
     margin-left:12vw;
     width:80vw;
     height: 50vh;
-    border-bottom:0.13vw solid black;
+    border-bottom:0.13vw solid #8a8a8a;
     display: flex;
     position: relative;
    
@@ -420,7 +420,7 @@ ul li:hover{
     background-size: contain;
     background-repeat: no-repeat;
     height: 110vh;
-    width: 85vw;
+    width: 100%;
     margin-top:2vh;
 }
 
@@ -753,7 +753,7 @@ ul li:hover{
         width: 100%;
     }
     .atribute-section{
-        height: 290vh;
+        height: 310vh;
     }
     .atribute-box{
         flex-direction: column;
@@ -901,7 +901,8 @@ ul li:hover{
     .storm{
         width: 130vw;
         height: 130vh;
-        left:-55vw;
+        left:-65vw;
+        top:-20vh;
     }
     .dart{
         left:10vw;
